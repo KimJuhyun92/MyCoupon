@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_notice"
+            android:checked="true"
+            android:title="공지사항" />
+        <item
+            android:id="@+id/item_time"
+            android:title="실시간 운영정보" />
+        <item
+            android:id="@+id/item_none1"
+            android:title="NONE1" />
+        <item
+            android:id="@+id/item_none2"
+            android:title="NONE2" />
+    </group>
+</menu>
